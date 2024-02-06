@@ -3,3 +3,7 @@ set number
 
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
+
+nnoremap j jzz
+nnoremap k kzz
+
