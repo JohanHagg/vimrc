@@ -17,7 +17,19 @@ set expandtab
 
 " Split editor
 nnoremap <leader>v :vsplit<CR>
-nnoremap <leader>h :split<CR>
+nnoremap <leader>s :split<CR>
+
+" Map leader + h to move to the split to the left
+nnoremap <leader>h <C-w>h
+
+" Map leader + j to move to the split below
+nnoremap <leader>j <C-w>j
+
+" Map leader + k to move to the split above
+nnoremap <leader>k <C-w>k
+
+" Map leader + l to move to the split to the right
+nnoremap <leader>l <C-w>l
 
 " Hybrid line numbers
 :set number relativenumber
