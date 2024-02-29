@@ -35,3 +35,7 @@ nnoremap <leader>l <C-w>l
 :set number relativenumber
 :set nu rnu
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
