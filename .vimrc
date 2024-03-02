@@ -35,7 +35,11 @@ nnoremap <leader>l <C-w>l
 :set number relativenumber
 :set nu rnu
 
+" Tab formatting
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+
+" Set title to the buffer name
+set title
 
