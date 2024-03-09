@@ -34,6 +34,9 @@ nnoremap <leader>l <C-w>l
 " Save all
 nnoremap <leader>w :wa<CR>
 
+" Quit all
+nnoremap <leader>qq :qa<CR>
+
 " Hybrid line numbers
 :set number relativenumber
 :set nu rnu
