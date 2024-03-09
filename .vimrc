@@ -31,6 +31,9 @@ nnoremap <leader>k <C-w>k
 " Map leader + l to move to the split to the right
 nnoremap <leader>l <C-w>l
 
+" Save all
+nnoremap <leader>w :wa<CR>
+
 " Hybrid line numbers
 :set number relativenumber
 :set nu rnu
