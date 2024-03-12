@@ -49,3 +49,7 @@ set shiftwidth=4
 " Set title to the buffer name
 set title
 
+" To prevent starting off the line with comment when going to next line
+autocmd BufEnter * set formatoptions-=cro
+autocmd BufEnter * setlocal formatoptions-=cro
+
