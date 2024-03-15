@@ -53,3 +53,6 @@ set title
 autocmd BufEnter * set formatoptions-=cro
 autocmd BufEnter * setlocal formatoptions-=cro
 
+" Prevent accidental close
+nmap <C-z> <Nop>
+
