@@ -16,8 +16,8 @@ set clipboard=unnamedplus
 set expandtab
 
 " Split editor
-nnoremap <leader>v :vsplit<CR>
-nnoremap <leader>s :split<CR>
+nnoremap <leader>sv :vsplit<CR>
+nnoremap <leader>sh :split<CR>
 
 " Map leader + h to move to the split to the left
 nnoremap <leader>h <C-w>h
